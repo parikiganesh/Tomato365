@@ -37,10 +37,10 @@ fun BottomNavigationBar(
             icon = { Icon(Icons.Outlined.Home, contentDescription = null) },
             label = { Text(stringResource(R.string.home)) },
             colors = NavigationBarItemDefaults.colors(
-                selectedIconColor = Color(0xFF42A5F5),
-                unselectedIconColor = Color(0xFF9E9E9E),
-                selectedTextColor = Color(0xFF42A5F5),
-                unselectedTextColor = Color(0xFF9E9E9E)
+                selectedIconColor = Color(0xFF1B6B3A),
+                unselectedIconColor = Color(0xFF5F6368),
+                selectedTextColor = Color(0xFF1B6B3A),
+                unselectedTextColor = Color(0xFF5F6368)
             )
         )
         NavigationBarItem(
@@ -49,10 +49,10 @@ fun BottomNavigationBar(
             icon = { Icon(Icons.Outlined.List, contentDescription = null) },
             label = { Text(stringResource(R.string.markets)) },
             colors = NavigationBarItemDefaults.colors(
-                selectedIconColor = Color(0xFF42A5F5),
-                unselectedIconColor = Color(0xFF9E9E9E),
-                selectedTextColor = Color(0xFF42A5F5),
-                unselectedTextColor = Color(0xFF9E9E9E)
+                selectedIconColor = Color(0xFF1B6B3A),
+                unselectedIconColor = Color(0xFF5F6368),
+                selectedTextColor = Color(0xFF1B6B3A),
+                unselectedTextColor = Color(0xFF5F6368)
             )
         )
         NavigationBarItem(
@@ -61,10 +61,10 @@ fun BottomNavigationBar(
             icon = { Icon(Icons.Outlined.TrendingUp, contentDescription = null) },
             label = { Text(stringResource(R.string.prices)) },
             colors = NavigationBarItemDefaults.colors(
-                selectedIconColor = Color(0xFF42A5F5),
-                unselectedIconColor = Color(0xFF9E9E9E),
-                selectedTextColor = Color(0xFF42A5F5),
-                unselectedTextColor = Color(0xFF9E9E9E)
+                selectedIconColor = Color(0xFF1B6B3A),
+                unselectedIconColor = Color(0xFF5F6368),
+                selectedTextColor = Color(0xFF1B6B3A),
+                unselectedTextColor = Color(0xFF5F6368)
             )
         )
         NavigationBarItem(
@@ -73,10 +73,10 @@ fun BottomNavigationBar(
             icon = { Icon(Icons.Outlined.Person, contentDescription = null) },
             label = { Text(stringResource(R.string.profile)) },
             colors = NavigationBarItemDefaults.colors(
-                selectedIconColor = Color(0xFF42A5F5),
-                unselectedIconColor = Color(0xFF9E9E9E),
-                selectedTextColor = Color(0xFF42A5F5),
-                unselectedTextColor = Color(0xFF9E9E9E)
+                selectedIconColor = Color(0xFF1B6B3A),
+                unselectedIconColor = Color(0xFF5F6368),
+                selectedTextColor = Color(0xFF1B6B3A),
+                unselectedTextColor = Color(0xFF5F6368)
             )
         )
     }
