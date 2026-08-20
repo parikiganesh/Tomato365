@@ -1,1 +1,29 @@
-/build*.hprof
+# Gradle
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+
+# Android
+.DS_Store
+.idea/
+*.iml
+*.log
+*.swp
+
+# Local
+local.properties
+google-services.json
+
+# Build cache
+*.hprof
+.cxx/
+
+# Test coverage
+coverage/
+.jacoco
+
+# Environment
+.env
+.env.local
