@@ -1,0 +1,25 @@
+package com.parikiganesh.tomato365.navigation
+
+object Routes {
+    const val SPLASH = "splash"
+    const val WELCOME = "welcome"
+    const val MARKET_SELECTION = "market_selection"
+    const val HOME = "home"
+    const val HOME_WITH_MARKET = "home/{marketName}"
+    const val MARKETS = "markets"
+    const val MARKET_DETAILS = "market_details"
+    const val PRICE_HISTORY = "price_history"
+    const val ALERTS = "alerts"
+    const val MORE = "more"
+    const val LANGUAGE = "language"
+    const val NOTIFICATION_SETTINGS = "notification_settings"
+    const val HELP = "help"
+    const val ADMIN_LOGIN = "admin_login"
+    const val ADMIN_DASHBOARD = "admin_dashboard"
+    const val ADMIN_PRICES = "admin_prices"
+    const val ADMIN_PROFILE = "admin_profile"
+    const val ADMIN_ADD_PRICE = "admin_add_price"
+    const val ADMIN_PRICE_HISTORY = "admin_price_history"
+    const val MANAGE_PRICES = "manage_prices"
+    const val MANAGE_MARKETS = "manage_markets"
+}
