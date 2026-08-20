@@ -9,8 +9,10 @@ import androidx.compose.material.icons.outlined.TrendingUp
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.parikiganesh.tomato365.R
@@ -33,25 +35,49 @@ fun BottomNavigationBar(
             selected = selected == BottomNavItem.HOME,
             onClick = { onSelected(BottomNavItem.HOME) },
             icon = { Icon(Icons.Outlined.Home, contentDescription = null) },
-            label = { Text(stringResource(R.string.home)) }
+            label = { Text(stringResource(R.string.home)) },
+            colors = NavigationBarItemDefaults.colors(
+                selectedIconColor = Color(0xFF42A5F5),
+                unselectedIconColor = Color(0xFF9E9E9E),
+                selectedTextColor = Color(0xFF42A5F5),
+                unselectedTextColor = Color(0xFF9E9E9E)
+            )
         )
         NavigationBarItem(
             selected = selected == BottomNavItem.MARKETS,
             onClick = { onSelected(BottomNavItem.MARKETS) },
             icon = { Icon(Icons.Outlined.List, contentDescription = null) },
-            label = { Text(stringResource(R.string.markets)) }
+            label = { Text(stringResource(R.string.markets)) },
+            colors = NavigationBarItemDefaults.colors(
+                selectedIconColor = Color(0xFF42A5F5),
+                unselectedIconColor = Color(0xFF9E9E9E),
+                selectedTextColor = Color(0xFF42A5F5),
+                unselectedTextColor = Color(0xFF9E9E9E)
+            )
         )
         NavigationBarItem(
             selected = selected == BottomNavItem.PRICES,
             onClick = { onSelected(BottomNavItem.PRICES) },
             icon = { Icon(Icons.Outlined.TrendingUp, contentDescription = null) },
-            label = { Text(stringResource(R.string.prices)) }
+            label = { Text(stringResource(R.string.prices)) },
+            colors = NavigationBarItemDefaults.colors(
+                selectedIconColor = Color(0xFF42A5F5),
+                unselectedIconColor = Color(0xFF9E9E9E),
+                selectedTextColor = Color(0xFF42A5F5),
+                unselectedTextColor = Color(0xFF9E9E9E)
+            )
         )
         NavigationBarItem(
             selected = selected == BottomNavItem.PROFILE,
             onClick = { onSelected(BottomNavItem.PROFILE) },
             icon = { Icon(Icons.Outlined.Person, contentDescription = null) },
-            label = { Text(stringResource(R.string.profile)) }
+            label = { Text(stringResource(R.string.profile)) },
+            colors = NavigationBarItemDefaults.colors(
+                selectedIconColor = Color(0xFF42A5F5),
+                unselectedIconColor = Color(0xFF9E9E9E),
+                selectedTextColor = Color(0xFF42A5F5),
+                unselectedTextColor = Color(0xFF9E9E9E)
+            )
         )
     }
 }
